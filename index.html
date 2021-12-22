@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accommodation Rental - Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      document.addEventListener('keypress', function (e){
+        if (e.key === 'h' || e.key === 'H') {
+          document.querySelectorAll('nav ul li a')[0].focus();
+        }
+
+        if (e.key === 't' || e.key === 'T') {
+          document.querySelectorAll('nav ul li a')[1].focus();
+        }
+
+        if (e.key === 's' || e.key === 'S') {
+          document.querySelectorAll('nav ul li a')[2].focus();
+        }
+
+        if (e.key === 'd' || e.key === 'D') {
+          document.querySelectorAll('nav ul li a')[3].focus();
+        }
+      });
+    </script>
+
+  </head>
+
+  <body class="home">
+    <header>TRAVEL WITH US!</header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="attractions.html">Tourist Attractions</a></li>
+        <li><a href="comment.php">Send Comment</a></li>
+        <li><a href="documentation.html">Documentation</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Who Are We?</h1>
+      <p>
+        We are a tourism agency located in Vancouver, BC, Canada.
+        We offer different types of tours for both individuals and groups.
+        Our priority is to provide a great customer experience to
+        those who visit the beautiful city of Vancouver. You could find
+        interesting information about Vancouver in the following section. In the
+        Tourism Attraction page, you will find useful information about some of the
+        most favorite places among those who visit Vancouver, namely Stanley Park,
+        Grouse Mountain, Canada Place and Queen Elizabeth Park. Please feel free to send
+        us your comment about traveling to Vancouver.
+      </p>
+
+      <h2>About Vancouver</h2>
+      <div id="vancouver-info">
+        <section id="gen-info">
+          <h3>General info</h3>
+          <p>
+            With its scenic views, mild climate, and friendly people, Vancouver
+            is known around the world as both a popular tourist attraction and
+            one of the best places to live.
+          </p>
+          <p>
+            Vancouver is also one of the most ethnically and linguistically
+            diverse cities in Canada with 52 percent of the population speaking
+            a first language other than English.
+          </p>
+          <p>
+            Vancouver has hosted many international conferences and events,
+            including the 2010 Winter Olympics and 2010 Winter Paralympics.
+          </p>
+        </section>
+        <section id="geography">
+          <h3>Geography</h3>
+          <p>
+            Vancouver is on the southwest corner of the province of British
+            Columbia, surrounded on three sides by water. Learn more about its
+            location, geography, and physical layout.
+          </p>
+          <p>
+            Vancouver's moderate, oceanic climate makes it one of the warmest
+            cities in Canada. Find out more about the weather in Vancouver and
+            links to common weather information sources including weather cams,
+            weather reports, and more.
+          </p>
+        </section>
+      </div>
+
+      <h2>Visit These Pages</h2>
+      <div id="pages">
+        <article>
+          <a href="attractions.html">
+            <img src="images/vancouver_nature.jpg" alt="Vancouver nature with ocean and rocks" />
+            <h3>Tourist Attractions</h3>
+          </a>
+        </article>
+
+        <article>
+          <a href="comment.php">
+            <img src="images/comment.jpg" alt="Comment shaped with light" />
+            <h3>Send Comment</h3>
+          </a>
+        </article>
+
+        <article>
+          <a href="documentation.html">
+            <img
+              src="images/documentation.jpg"
+              alt="Documentation on computer screen"
+            />
+            <h3>Documentation</h3>
+          </a>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; Ahmad Ehsani 2021</p>
+      <a href="#">Back to Top</a>
+    </footer>
+
+    <nav></nav>
+  </body>
+</html>

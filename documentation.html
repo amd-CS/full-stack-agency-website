@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accommodation Rental - Documentation</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      document.addEventListener('keypress', function (e){
+        if (e.key === 'h' || e.key === 'H') {
+          document.querySelectorAll('nav ul li a')[0].focus();
+        }
+
+        if (e.key === 't' || e.key === 'T') {
+          document.querySelectorAll('nav ul li a')[1].focus();
+        }
+
+        if (e.key === 's' || e.key === 'S') {
+          document.querySelectorAll('nav ul li a')[2].focus();
+        }
+
+        if (e.key === 'd' || e.key === 'D') {
+          document.querySelectorAll('nav ul li a')[3].focus();
+        }
+      });
+    </script>
+  </head>
+
+  <body>
+    <header>TRAVEL WITH US!</header>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="attractions.html">Tourist Attractions</a></li>
+          <li><a href="comment.php">Send Comment</a></li>
+          <li><a href="documentation.html">Documentation</a></li>
+        </ul>
+      </nav>
+
+    <main>
+      <h1>Documentation</h1>
+
+      <h2>Instructions</h2>
+      <p>There are four pages on the website: Home, Tourist Attractions, Send Comment and Documentation.</p>
+      <p>Each page's name is pretty self-explanatory. On the "Send Comment" page, users can send comments
+      <br>which are added to and stored in the database.</p>
+
+      <h2>Features</h2>
+      - comments are stored in the database<br>
+      - four pages<br>
+      - form with client-side and server-side validation<br>
+      - users can add rows records to the database by sending comments<br>
+      - several uses of CSS transitions (hover effect over the navigation menu items, etc.)<br>
+      - two @keyframes animations: background image animation, animation when hovering over<br>
+      images on the "Tourist Attractions" page which hides the image and reveals the name of the place<br>
+      - several uses of CSS Grid and FlexBox (items on the home page, "Tourist Attractions" page, etc.)<br>
+      - JavaScript functionality: keyboard accessible menu (pressing the first letter of each menu items<br>
+      makes the corresponding menu item focused)<br>
+      - responsive, mobile-first design<br>
+      - accessibility features: alt text for images, etc.<br>
+      - HTML and CSS validation<br><br>
+
+      <h2>HTML and CSS Validation</h2>
+      <div id="validation">
+        <img src="images/home-validation.png" alt="Home page validation">
+        <img src="images/attractions-validation.png" alt="Attractions page validation">
+        <img src="images/documentation-validation.png" alt="Documentation page validation">
+        <img src="images/css-validation.png" alt="CSS validation">
+      </div>
+
+      <h2>Resources</h2>
+      header image: https://unsplash.com/photos/WHHY-iBp3aI<br>
+      tourist attractions image: https://unsplash.com/photos/FQRxB1SimfI<br>
+      comment image: https://unsplash.com/photos/mZNRsYE9Qi4<br>
+      documentation image: https://unsplash.com/photos/cdMAU_x9mxY<br><br>
+
+      "About Vancouver" information: https://vancouver.ca/news-calendar/our-city.aspx<br>
+      data and images on the "Tourist Attractions" page:<br>
+      https://www.planetware.com/tourist-attractions-/vancouver-cdn-bc-bcv.htm<br><br>
+
+      background images:<br>
+      https://www.flaticon.com/premium-icon/travel-bag_3070817<br>
+      https://www.flaticon.com/premium-icon/sunrise_3038990<br>
+      https://www.flaticon.com/premium-icon/passport_913032<br>
+      https://www.flaticon.com/premium-icon/luggage_531897<br>
+      https://www.flaticon.com/free-icon/destination_854996<br>
+      https://www.flaticon.com/free-icon/world_761488<br>
+      https://www.flaticon.com/premium-icon/travel-luggage_2028454<br>
+      https://www.flaticon.com/premium-icon/plane_870092<br><br>
+
+    </main>
+
+    <footer>
+      <p>&copy; Ahmad Ehsani 2021</p>
+      <a href="#">Back to Top</a>
+    </footer>
+
+    <nav></nav>
+  </body>
+</html>

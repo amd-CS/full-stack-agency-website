@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accommodation Rental - Tourist Attractions</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      document.addEventListener('keypress', function (e){
+        if (e.key === 'h' || e.key === 'H') {
+          document.querySelectorAll('nav ul li a')[0].focus();
+        }
+
+        if (e.key === 't' || e.key === 'T') {
+          document.querySelectorAll('nav ul li a')[1].focus();
+        }
+
+        if (e.key === 's' || e.key === 'S') {
+          document.querySelectorAll('nav ul li a')[2].focus();
+        }
+
+        if (e.key === 'd' || e.key === 'D') {
+          document.querySelectorAll('nav ul li a')[3].focus();
+        }
+      });
+    </script>
+  </head>
+
+  <body>
+    <header>TRAVEL WITH US!</header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="attractions.html">Tourist Attractions</a></li>
+        <li><a href="comment.php">Send Comment</a></li>
+        <li><a href="documentation.html">Documentation</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>Tourist Attractions in Vancouver</h1>
+      <div id="attractions">
+        <article>
+          <img src="images/stanley-park.jpg" alt="Stanley Park scene" />
+          <h2>Stanley Park</h2>
+          <p>
+            Stanley Park is a lush peninsula of huge trees adjacent to Downtown
+            Vancouver. If you are looking to get outside and enjoy some nature,
+            this is the best place to visit in Vancouver. A paved seawall path
+            encircles the green space and is a wonderful and exciting place to
+            explore.
+          </p>
+        </article>
+
+        <article>
+          <img src="images/grouse-mountain.jpg" alt="Grouse Mountain covered in snow" />
+          <h2>Grouse Mountain</h2>
+          <p>
+            In both winter and summer, Grouse Mountain offers an unmatched
+            panorama in clear weather. That's especially so in the evenings when
+            the city lights are on. A gondola operates daily running from street
+            level to the summit, where wildlife await mountaintop explorers.
+          </p>
+        </article>
+
+        <article>
+          <img src="images/canada-place.jpg" alt="Cruise ship at Canada Place" />
+          <h2>Canada Place</h2>
+          <p>
+            If you arrive in Vancouver on a cruise ship, Canada Place is where
+            your trip begins. The unusual roof design creates the impression of
+            a huge sailing vessel. The architecturally remarkable structure is
+            part cruise ship terminal, and part convention center.
+          </p>
+        </article>
+
+        <article>
+          <img src="images/queen-elizabeth-park.jpg" alt="Queen Elizabeth Park conservatory" />
+          <h2>Queen Elizabeth Park</h2>
+          <p>
+            The center of Queen Elizabeth Park, Little Mountain, marks the
+            highest point in Vancouver, and its elevated position affords
+            excellent views of the city center and the mountains to the north.
+            Things to do in the park include pitch-and-putt golf, tennis and
+            disc golf.
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; Ahmad Ehsani 2021</p>
+      <a href="#">Back to Top</a>
+    </footer>
+
+    <nav></nav>
+  </body>
+</html>

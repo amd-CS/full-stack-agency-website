@@ -1,0 +1,313 @@
+body {
+  color: rgb(65, 65, 65);
+  background-color: rgb(240, 240, 240);
+  background-image: url("images/travel-background.png");
+  background-repeat: repeat;
+  animation-name: background-move;
+  animation-timing-function: linear;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+@keyframes background-move {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+header {
+  background-image: url("images/downtown-vancouver.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px black;
+}
+
+nav ul {
+  list-style-type: none;
+  color: white;
+  font-weight: 600;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+nav ul li {
+  background-color: rgb(199, 89, 140);
+  padding: 0.5rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+  transition: background-color 0.5s;
+}
+
+nav ul li:hover {
+  background-color: rgb(179, 35, 102);
+  transition: background-color 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.home h1 + p {
+  width: 90%;
+  margin: auto;
+  box-shadow: 0 0 10px 5px #ccc;
+  border-radius: 2rem;
+  padding: 1rem;
+  line-height: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+  margin-top: 3rem;
+}
+
+#vancouver-info {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#vancouver-info section {
+  box-shadow: 0 0 10px 5px #ccc;
+  border-radius: 2rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+@keyframes hide-image {
+  0% {
+    transform: rotate(0) scale(1);
+    opacity: 1;
+    display: block;
+  }
+  100% {
+    transform: rotate(360deg) scale(0.5);
+    opacity: 0;
+  }
+}
+
+#attractions {
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+#attractions article {
+  width: 80%;
+  height: 25rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px 5px #ccc;
+  margin: auto;
+  margin-bottom: 2rem;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#attractions article h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 7rem;
+  margin-top: 6rem;
+}
+
+#attractions article:last-of-type h2 {
+  font-size: 1.5rem;
+  margin-top: 7rem;
+}
+
+#attractions article img {
+  width: 94%;
+  height: 15rem;
+  margin: auto;
+  object-fit: cover;
+  border-radius: 1rem;
+  position: absolute;
+  left: 3%;
+  top: 5%;
+}
+
+#attractions article img:hover {
+  animation-name: hide-image;
+  animation-duration: 2s;
+  opacity: 0;
+}
+
+#pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pages article {
+  width: 80%;
+  height: 25rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-image: linear-gradient(to bottom right, purple, gold);
+  box-shadow: 0 0 10px 5px #ccc;
+  transition: box-shadow 0.4s;
+  margin-bottom: 2rem;
+}
+
+#pages article img {
+  width: 100%;
+  height: 85%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+#pages article:hover {
+  box-shadow: 0 0 15px 10px rgb(184, 184, 184);
+  transition: box-shadow 0.2s;
+}
+
+#pages article h3 {
+  margin-top: 0.6rem;
+
+}
+
+.comment {
+  background-color: #ffeaf7;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+#validation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 90%;
+  margin: auto;
+}
+
+#validation img{
+  width: 90%;
+  margin: auto;
+  height: 90%;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px 10px rgb(205, 205, 205);
+}
+
+footer {
+  background-color: rgb(77, 19, 46);
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+footer a {
+  padding: 0.4rem 0.6rem;
+  border-radius: 1rem;
+  transition: background-color 0.5s;
+}
+
+footer a:hover {
+  background-color: rgba(219, 212, 216, 0.294);
+  transition: background-color 0.5s;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+form input,
+form textarea,
+form button {
+  border-radius: 0.7rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ccc;
+  outline: 0;
+  transition: box-shadow 0.2s, border 0.2s, background-color 0.2s;
+}
+
+form input:hover,
+form textarea:hover,
+form button:hover,
+form input:focus,
+form textarea:focus,
+form button:focus {
+  box-shadow: 0 0 5px 3px rgb(216, 216, 216);
+  border: rgb(132, 159, 246) 1px solid;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+
+form button:hover {
+  background-color: rgb(230, 230, 230);
+  transition: background-color 0.2s;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    height: 15rem;
+    font-size: 3.5rem;
+  }
+
+  nav ul {
+    flex-direction: row;
+  }
+  nav ul li {
+    flex-grow: 1;
+  }
+
+  .home h1 + p {
+    column-gap: 2rem;
+    columns: 2;
+  }
+
+  #vancouver-info {
+    flex-direction: row;
+  }
+
+  #vancouver-info section {
+    width: 50%;
+  }
+
+  #pages {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 2rem;
+  }
+
+  #attractions, #validation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4f777cc-a278-4199-802c-13db486159ef" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8" />
+  <component name="ProjectId" id="21r3vLdvQlVUW7oot2uUtKZoFXu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\2030-project\images" />
+      <recent name="C:\xampp\htdocs\2030-project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\2030-project\templates\functions" />
+      <recent name="C:\xampp\htdocs\2030-project" />
+      <recent name="C:\xampp\htdocs\2030-project\database" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4f777cc-a278-4199-802c-13db486159ef" name="Default Changelist" comment="" />
+      <created>1638685608382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638685608382</updated>
+      <workItem from="1638685609539" duration="181000" />
+      <workItem from="1638685807502" duration="7594000" />
+      <workItem from="1638738774734" duration="234000" />
+      <workItem from="1638739467457" duration="1049000" />
+      <workItem from="1638740534305" duration="9542000" />
+      <workItem from="1638773291503" duration="6049000" />
+      <workItem from="1638935180198" duration="986000" />
+      <workItem from="1639248227461" duration="1770000" />
+      <workItem from="1639446439804" duration="1436000" />
+      <workItem from="1640150951439" duration="744000" />
+      <workItem from="1640195256899" duration="1490000" />
+      <workItem from="1640197097289" duration="217000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
